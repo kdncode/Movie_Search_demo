@@ -26,5 +26,5 @@ app.get("/results", (req, res) => {
 
 
 app.listen(process.env.PORT || 3000, () => {
-    console.log("movie API is running")
+    console.log("Movie API is running...")
 })
